@@ -1,0 +1,30 @@
+.field-cell {
+    display: inline-block;
+    margin-right: 4px;
+    border: 1px solid dimgray;
+    height: 50px;
+    width: 50px;
+}
+
+.field-cell.field-cell-alive {
+    background: darkgreen;
+}
+
+.before-container {
+    float: left;
+    margin-right: 2em;
+}
+
+.before-container, .after-container {
+    margin-bottom: 2em;
+}
+
+.game-container .field-cell {
+    height: 5px;
+    width: 5px;
+    margin-right: 1px;
+}
+
+.game-container .field-row {
+    height: 8px;
+}
